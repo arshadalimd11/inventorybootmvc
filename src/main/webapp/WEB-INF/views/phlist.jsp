@@ -10,18 +10,16 @@
 </head>
 <body>
 
-<h1>Listing all Phones</h1>
+<h1>Listing all Phone</h1>
 
 
-<c:forEach items="${computer}"  var="computer">
+<c:forEach items="${phone}"  var="phone">
 
-Id is :<c:out value="${computer.getId()}"  />
+Id is :<c:out value="${phone.id}"  />
 
-
-
-name is :<c:out value="${computer.getItemname()}"  />
-Supplier is :<c:out value="${computer.getSupplier().getName()}"  />
-DESKSPACE is :<c:out value="${computer.getDeskSpace()}"  />
+name is :<c:out value="${phone.getItemname()}"  />
+Supplier is :<c:out value="${phone.getSupplier().getName()}"  />
+StorageMemory is :<c:out value="${phone.getStorageMemory()}"  />
 
 
 <br>

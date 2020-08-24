@@ -6,26 +6,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>All Computer</title>
+<title>Phone Details</title>
 </head>
-<body>
-
-<h1>Listing all Computer</h1>
-
-
-<c:forEach items="${computer}"  var="computer">
-
-Id is :<c:out value="${computer.getId()}"  />
-
-
-
-name is :<c:out value="${computer.getItemname()}"  />
-Supplier is :<c:out value="${computer.getSupplier().getName()}"  />
-DESKSPACE is :<c:out value="${computer.getDeskSpace()}"  />
-
-
+<body><center>
+<h1>Phone Details </h1>
+id is <c:out value="${phone.id}"  />
 <br>
-</c:forEach>
-
+storage is <c:out value="${phone.storageMemory}"  />
+</center>
+<br>
 </body>
 </html>
