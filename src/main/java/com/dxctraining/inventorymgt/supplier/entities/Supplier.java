@@ -87,6 +87,7 @@ public class Supplier {
 		if (o == null || getClass() != o.getClass()) {
 			return false;
 		}
+		
 		Supplier that = (Supplier) o;
 		return id == that.id;
 

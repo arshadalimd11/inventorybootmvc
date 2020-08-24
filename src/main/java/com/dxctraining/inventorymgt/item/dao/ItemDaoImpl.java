@@ -28,6 +28,7 @@ public class ItemDaoImpl implements IItemDao{
 	        }
 	        return computer;
 	    }
+	 
 	 @Override
 	    public Phone findPhoneById(int id) {
 	        Phone phone=entityManager.find(Phone.class,id);
@@ -36,6 +37,7 @@ public class ItemDaoImpl implements IItemDao{
 	        }
 	        return phone;
 	    }
+	 
 	 @Override
 	    public Computer add(Computer computer) {
 	        entityManager.persist(computer);

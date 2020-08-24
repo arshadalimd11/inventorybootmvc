@@ -3,6 +3,7 @@
 
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,5 +16,6 @@ id is <c:out value="${computer.id}"  />
 discSize is <c:out value="${computer.discSize}"  />
 </center>
 <br>
+
 </body>
 </html>

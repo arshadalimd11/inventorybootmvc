@@ -10,5 +10,6 @@ public interface ISupplierDao {
 
     void remove(int id);
     List<Supplier>allSuppliers();
+    
  
 }
