@@ -6,45 +6,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Employee Registeration</title>
+<title>Computer Details</title>
 </head>
-<body>
-
-<h1>Employee Registeration submits get request</h1>
-
-<form method="get" action="/processregister">
-
-<div>
-
-<label>Name</label>
-<input type="text"  name="ename">
-
-</div>
-
-<div>
-
-<label>Salary</label>
-<input type="number"  name="salary">
-
-</div>
-
-
-<div>
-
-<label>Age</label>
-<input type="number"  name="age">
-
-</div>
-
-<div>
-<label>Password</label>
-<input type="password"  name="password">
-
-</div>
-
-<input type="submit" value="Create Employee">
-
-</form>
-
+<body><center>
+<h1>Computer Details </h1>
+id is <c:out value="${computer.id}"  />
+<br>
+deskSpace is <c:out value="${computer.deskSpace}"  />
+</center>
+<br>
 </body>
 </html>
