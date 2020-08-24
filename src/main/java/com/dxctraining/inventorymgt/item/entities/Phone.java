@@ -55,9 +55,11 @@ public class Phone{
 	@Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
+        
         if (obj == null || getClass() != obj.getClass()) {
             return false;
         }
+        
         Phone that = (Phone) obj;
         return this.id == that.id;
     }

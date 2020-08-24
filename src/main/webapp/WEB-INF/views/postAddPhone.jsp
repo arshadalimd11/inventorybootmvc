@@ -8,32 +8,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Computer Registration</title>
+<title>Phone Registration</title>
 </head>
 <body>
 
-<h1>Computer Registration submits post request</h1>
+<h1>Phone Registration submits post request</h1>
 
-<form:form method="post" action="/processpostadd" modelAttribute="computer">
+<form:form method="post" action="/processpostaddPhone" modelAttribute="phone">
 
 <div>
 
 
 <label>Name</label>
-<form:input path="computername"/>
+<form:input path="phonename"/>
 
 </div>
 <div>
 
 
-<label>Name</label>
-<form:input path="discSize"/>
+<label>Storage :</label>
+<form:input path="storageMemory"/>
 
 </div>
 
 
 
-<input type="submit" value="Create Computer">
+<input type="submit" value="Create Phone">
 
 </form:form>
 

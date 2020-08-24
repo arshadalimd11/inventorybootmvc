@@ -44,6 +44,14 @@ public class SupplierServiceImpl implements ISupplierService {
 	        List<Supplier>allsuppliers=dao.allSuppliers();
 	        return allsuppliers;
 	    }
+	   
+	   @Override
+	    public boolean authentication(int id, String password){
+	       Supplier supplier= dao.findSupplierById(id);
+	       String storedPassword=supplier.getPassword();
+	       boolean equals= storedPassword.equals(password);
+	       return equals;
+	    }
 	  
 
 }

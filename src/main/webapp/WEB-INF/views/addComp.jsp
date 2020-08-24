@@ -22,8 +22,8 @@
 </div>
 <div>
 
-<label>deskSpace</label>
-<input type="text"  name="deskSpace">
+<label>discSize</label>
+<input type="text"  name="discSize">
 
 </div>
 

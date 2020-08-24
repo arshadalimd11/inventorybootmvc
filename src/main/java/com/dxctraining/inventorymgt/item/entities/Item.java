@@ -14,6 +14,7 @@ import com.dxctraining.inventorymgt.supplier.entities.Supplier;
 @Entity
 @Inheritance(strategy=InheritanceType.JOINED)
 @Table(name = "item_details")
+
 public class Item {
 
 	@Id
@@ -69,6 +70,7 @@ public class Item {
 		if (obj==null || getClass() != obj.getClass()) {
 			return false;
 		}
+		
 		Item that = (Item) obj;
 		return this.id == that.id;
 	}

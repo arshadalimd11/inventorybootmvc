@@ -17,8 +17,10 @@ public class Computer {
 	private int id;
 	private int discSize;
 	private String itemName;
-	@ManyToOne
+	
+	@ManyToOne //manytoone
 	private Supplier supplier;
+	
 	public Computer() {
 		
 	}

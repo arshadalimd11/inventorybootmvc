@@ -14,5 +14,6 @@ public interface ISupplierService {
     
     List<Supplier> allSuppliers();
     //adding all
+    public boolean authentication(int id,String password);
 
 }
