@@ -7,11 +7,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Supplier Details</title>
+<title>Supplier  Details</title>
 </head>
 <body><center>
 <h1>Supplier Details </h1>
 id is <c:out value="${supplier.id}"  />
+
 <br>
 name is <c:out value="${supplier.name}"  />
 </center>
