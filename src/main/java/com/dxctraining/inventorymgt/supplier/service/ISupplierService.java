@@ -10,6 +10,7 @@ public interface ISupplierService {
     Supplier add(Supplier supplier);
 
     void remove(int id);
+    
     List<Supplier> allSuppliers();
     
 

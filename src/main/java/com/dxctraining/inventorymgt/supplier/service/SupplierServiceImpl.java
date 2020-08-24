@@ -38,6 +38,7 @@ public class SupplierServiceImpl implements ISupplierService {
 	            throw new InvalidArgumentException("Argument is null ");
 	        }
 	    }
+	   
 	   @Override
 	    public List<Supplier> allSuppliers(){
 	        List<Supplier>allsuppliers=dao.allSuppliers();
