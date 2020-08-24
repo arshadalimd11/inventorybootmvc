@@ -6,11 +6,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>All Computer</title>
+<title>All Phone</title>
 </head>
 <body>
 
-<h1>Listing all Computer</h1>
+<h1>Listing all Phones</h1>
 
 
 <c:forEach items="${computer}"  var="computer">
@@ -21,7 +21,7 @@ Id is :<c:out value="${computer.getId()}"  />
 
 name is :<c:out value="${computer.getItemname()}"  />
 Supplier is :<c:out value="${computer.getSupplier().getName()}"  />
-DiscSize is :<c:out value="${computer.getDiscSize()}"  />
+DESKSPACE is :<c:out value="${computer.getDeskSpace()}"  />
 
 
 <br>

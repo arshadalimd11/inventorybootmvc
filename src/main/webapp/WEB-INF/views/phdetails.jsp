@@ -21,7 +21,7 @@ Id is :<c:out value="${computer.getId()}"  />
 
 name is :<c:out value="${computer.getItemname()}"  />
 Supplier is :<c:out value="${computer.getSupplier().getName()}"  />
-DiscSize is :<c:out value="${computer.getDiscSize()}"  />
+DESKSPACE is :<c:out value="${computer.getDeskSpace()}"  />
 
 
 <br>

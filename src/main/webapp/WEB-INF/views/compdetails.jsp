@@ -12,7 +12,7 @@
 <h1>Computer Details </h1>
 id is <c:out value="${computer.id}"  />
 <br>
-deskSpace is <c:out value="${computer.deskSpace}"  />
+discSize is <c:out value="${computer.discSize}"  />
 </center>
 <br>
 </body>
