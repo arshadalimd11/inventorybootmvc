@@ -6,13 +6,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Employee Registeration</title>
+<title>Supplier Registration</title>
 </head>
 <body>
 
 <h1>Login Page</h1>
 
-<form method="get" action="/processlogin">
+<form method="get" action="/processinglogin">
 
 <div>
 
@@ -28,7 +28,7 @@
 
 </div>
 
-<input type="submit" value="Create Employee">
+<input type="submit" value="Log in">
 
 </form>
 
