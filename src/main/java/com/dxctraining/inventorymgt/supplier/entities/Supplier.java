@@ -62,7 +62,6 @@ public class Supplier {
 	public String getName() {
 		return sname;
 	}
-
 	public void setName(String sname) {
 		this.sname = sname;
 	}
@@ -70,7 +69,6 @@ public class Supplier {
 	public String getPassword() {
 		return password;
 	}
-
 	public void setPassword(String password) {
 		this.password = password;
 	}
